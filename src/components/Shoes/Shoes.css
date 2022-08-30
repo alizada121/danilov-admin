@@ -1,0 +1,12 @@
+.shoe-cont{
+    display: flex;
+    flex-direction: row;
+}
+
+.shoes-general{
+    margin: 10% 20%;
+}
+
+.shoes-add{
+    margin: 10% 20%;
+}

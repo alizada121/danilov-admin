@@ -1,0 +1,63 @@
+.category,
+.categoryModal {
+    position: relative;
+    width: 480px;
+    margin-left: 16%;
+    margin-top: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E3E5E4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.category form,
+.categoryModal form {
+    margin: 0 !important;
+}
+
+.categoryModal{
+    min-height: 250px;
+}
+
+.categoryDelete {
+    margin-left: 25px;
+    font-size: 1.10rem;
+    cursor: pointer;
+}
+
+.fa-check{
+    color: green;
+}
+
+.category-add {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.category-add button {
+    padding: 4px 10px;
+    background: #323232;
+    border-radius: 3px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #F8F8F8;
+}
+
+.notAllowed{
+    cursor: not-allowed;
+}
+
+.pointer{
+    cursor: text;
+}
+
+.modal-add-btn{
+    margin-top: 100px;
+}
